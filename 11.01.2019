@@ -1,0 +1,69 @@
+\documentclass[a4paper,12pt,twocolumn]{article}
+%\usepackage[utf8]{inputenc}
+%\usepackage{polski}
+\usepackage{graphicx}
+%
+\begin{document}
+  \section{Jablka}
+  \subsection{Kosztele}\label{sec:kosztelki}
+    Elo!
+  \subsection{Malinowki}
+    Yo! Yo!
+  \section{Gruszki}
+    Jak leci? Siema \ref{sec:kosztelki} te mordeczko\footnote{dawaj siate}.
+  \begin{itemize}
+    \item FIAT
+    \item porshe
+    \item cadillac
+    \end{itemize}
+%
+\begin{enumerate}
+  \item avokado
+  \item brzoskwinia
+  \item mango
+\end{enumerate}
+%
+\begin{flushright}
+  oubgiuayaguobdaubiuabubaubebu. eloelo. cotamcotam. jest 35$^{\circ}$C
+\end{flushright}
+%
+\begin{center}
+  hbhadhahahhauebaaye. buaiaueuiabfe (\textit{o japierdziele}).
+\end{center}
+%
+\begin{verbatim}
+  #icnlude <iostream>
+  using namespace std;
+
+  int main(){
+  cout << "ala ma kota" << endl;
+  return 0;
+  }
+\end{verbatim}
+%
+C++ \verb+#include <inostrem>+.
+\\
+\begin{tabular}{|r|ll||}
+  \hline
+  $a_{11}$ & $E=mc^2$ & $a^{13}$ \\ \hline a21 & a22 & a23 \\
+  \hline\hline
+\end{tabular}
+%
+\begin{figure}
+  \includegraphics[width=0.5\textwidth]{grafika/forest.jpeg}
+  \caption{las}
+  \label{fig:forest}
+\end{figure}
+\\
+\\
+\\
+jbdagbijhdgbiaghagiufgi \ref{fig:forest} ujfeiuyfgiuagy
+%
+\begin{thebibliography}{9}%liczba pozycji
+  \bibitem{Einstein32} A.~Eintein: Phys. Rev.
+  \textbf{12} 128 (1932)
+  \bibitem{Wozniak78} S.~Wozniak: Comp. Mag. \texbf{245}
+  1234 (1978).
+\end{thebibliography}
+
+\end{document}
