@@ -1,0 +1,13 @@
+\documentclass[a4paper,8pt,twocolumn]{article}
+
+\begin{document}
+AN electron in an ionic crystal polarizes the lattice in its neighborhood. This interaction changes the energy of the electron. Furthermore, when the electron moves the polarization state must move with it. An electron moving with its accompanying distortion of the lattice has sometimes been called a polaron. It has an effective mass higher than that of the electron. We wish to compute the energy and effective mass of such an electron. A summary giving the present state of this problem has been given by Fr\"ohlich.\footnote{H. Fr\"ohlich, Advances in Physics 3, 325 (1954). References to other work is given here.}
+%
+He makes simplifying assumptions, such that the crystal lattice acts much like a dielectric medium, and that all the important phonon waves have the same frequency. We will not discuss the validity of these assumptions here, but will consider the problem. Aside from its intrinsic interest, the problem is a much simplified analog of those which occur in the conventiona; meson theory when perturbation theory is inadequate. The method we shall use to solve the polaron problem is new, but the pseudoscalar symmetric meson field problems involve so many further complications that it cannot be directly applied there without further development.\newline
+%
+We shall show how the variational technique which is so successful in ordinary quantum mechanics can be extended to integrals over trajectories.\newline
+%
+\section{\emph{STATEMENT OF THE PROBLEM}}
+%
+With Fr\"ohlich's assumptions, the problem is reduced to that of finding the properties of the following Hamiltonian:\newline$H=\frac{1}{2}P^2\sum_{k} a_{k}+a_{k}+i(sqrt{2}_{$
+\end{document}
