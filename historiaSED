@@ -1,0 +1,50 @@
+    1  touch siema
+    2  history
+    3  sed -e 'd' baza.sed
+    4  sed -en 'd' baza.sed
+    5  sed 'p' baza.sed
+    6  sed -n 'p' baza.sed
+    7  clear
+    8  history\
+    9  sed '1,3d' baza.sed
+   10  sed '2,4d' baza.sed
+   11  sed '2-4d' baza.sed
+   12  sed '4,2d' baza.sed
+   13  sed '1,3!d' baza.sed
+   14  sed '1,3d' baza.sed
+   15  sed '1~2d' baza.sed
+   16  sed '1~3d' baza.sed
+   17  sed 's/kota/PSA/' baza.sed
+   18  sed 's/kota/PSA/g' baza.sed
+   19  sed 's/kota/PSA/2' baza.sed
+   20  sed 's/kota/PSA/gi' baza.sed
+   21  clear
+   22  history
+   23  clear
+   24  sed 's/kota/PSA/gip' baza.sed
+   25  clear
+   26  cat baza.sed | sed '
+s/kota/psa/'
+   27  cat baza.sed | sed '
+d Ala'
+   28  nano skrypt.sed
+   29  ls
+   30  sed -f skrypt.sed baza.sed
+   31  nano skrypt.sed
+   32  sed -f skrypt.sed baza.sed
+   33  claer
+   34  clear
+   35  sed 'i Ewelina ma psa' baza.sed
+   36  sed '1i Ewelina ma psa' baza.sed
+   37  sed '1a Ewelina ma psa' baza.sed
+   38  nano skrypt.sed
+   39  cat baza.sed | sed -f skrypt.sed baza.sed
+   40  nano skrypt.sed
+   41  cat baza.sed | sed -f skrypt.sed baza.sed
+   42  clear
+   43  history
+   44  history | touch siema
+   45  ls
+   46  cat siema
+   47  clear
+   48  history > siema
