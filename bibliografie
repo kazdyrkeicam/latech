@@ -1,0 +1,23 @@
+%bibliografie
+\documentclass[a4paper]{article}
+%{book} genialne!
+\author{A.~Einstein}
+\title{\LaTeX ~dla nas informatykow}
+\date{\today}
+%Temat Bibliografie
+\begin{document}
+\maketitle
+
+fill\\
+\begin{center}
+siemano mordello
+\end{center}
+
+
+elo elo 3 2 0. cytat~\cite{Einstein28}.
+\bibliography{mojabiblio}
+\bibliographystyle{unsrt}
+
+
+
+\end{document}
