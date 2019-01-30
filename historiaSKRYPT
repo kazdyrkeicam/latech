@@ -1,0 +1,177 @@
+KRYPT 1
+#1/bin/bash
+if [ whoami=student ]
+then
+echo "jestes"
+else
+echo "nie"
+fi
+
+
+SKRYPT 1
+echo "wybierz"
+read robic
+case "$robic" in
+jesc)
+echo "chce"
+;;
+pic)
+echo "uuuu"
+;;
+*)
+echo "nie wiem"
+;;
+esac
+
+SKRYPT 3
+i=0
+while [ $i -lt 5 ]
+do
+echo -n "elo liczbo"
+echo "$i"
+i=`expr $i + 1`
+done
+
+SKRYPT 4
+for imie in Adam Tomek Nikita Alex
+do
+echo "siema $imie"
+done
+
+
+SKRYPT 5
+i=0
+until
+do
+echo "siema"
+i=$[i+1]
+done
+
+
+
+HISTORY MORDECZKO
+
+  964  history
+  965  clear
+  966  history
+  967  liczba="10"
+  968  expr $liczba + 13
+  969  InnaZmianna="Moj plik"
+  970  $InnaZmienna
+  971  $InnaZmianna
+  972  echo $InnaZmianna
+  973  clear
+  974  $ZMIENNA=6
+  975  echo $ZMIENNA=6
+  976  echo $ZMIENNA
+  977  clear
+  978  history
+  979  clear
+  980  ls "InnaZmianna"
+  981  clear
+  982  auto="samochod"
+  983  echo "mam w domu piec $autoow"
+  984  echo $"autoow"
+  985  echo $autoow
+  986  echo "mam w domu piec ${auto}ow"
+  987  echo "mam w domu piec $autoow"
+  988  echo $autoow
+  989  echo $autoow=3
+  990  clear
+  991  history
+  992  clear
+  993  read Pogoda
+  994  echo $Pogoda
+  995  history
+  996  clear
+  997  $?
+  998  echo Ala ma kota
+  999  echo "Ala ma kota"
+ 1000  echo $?
+ 1001  $?
+ 1002  echo $?
+ 1003  clear
+ 1004  nano test.data
+ 1005  ls
+ 1006  greo slonce test.data
+ 1007  grep slonce test.data
+ 1008  $?
+ 1009  grep slonce test.data
+ 1010  echo $?
+ 1011  grep snieg test.data
+ 1012  echo $?
+ 1013  clear
+ 1014  history
+ 1015  clear
+ 1016  test
+ 1017  test 10 -lt 15; echo $?
+ 1018  test 10 -gt 15; echo $?
+ 1019  test 10 -eq 15; echo $?
+ 1020  test 10 -ne 15; echo $?
+ 1021  test "Ala ma kota" -eq "Ala ma kota"; echo $?
+ 1022  test "Ala ma kota" = "Ala ma kota"; echo $?
+ 1023  test "Ala ma kota" = "ala ma kota"; echo $?
+ 1024  test "Ala ma kota" = "Ala ma koTa"; echo $?
+ 1025  test "ala ma kota" = "ala ma koTa"; echo $?
+ 1026  test -z "Ala ma kota"; echo $?
+ 1027  test -n "Ala ma kota"; echo $?
+ 1028  test -d "Ala ma kota"; echo $?
+ 1029  ls
+ 1030  test -f "test.data"; echo $?
+ 1031  clear
+ 1032  test -x "test.data"; echo $?
+ 1033  test -r "test.data"; echo $?
+ 1034  test -w "test.data"; echo $?
+ 1035  test -r "test.data" -a test 10 -lt 15; echo $?
+ 1036  test -a -r "test.data" test 10 -lt 15; echo $?
+ 1037  test -r "test.data" -a 10 -lt 15; echo $?
+ 1038  to dobrze
+ 1039  history
+ 1040  clear
+ 1041  [ 10 -lt 15 ]; echo $?
+ 1042  nano krypt1.sh
+ 1043  ls
+ 1044  ls -l
+ 1045  chmod +x krypt1.sh 
+ 1046  ls -l
+ 1047  history
+ 1048  clear
+ 1049  ./krypt1.sh 
+ 1050  sudo apt-get install dosbox
+ 1051  clear
+ 1052  nano krypt1.sh 
+ 1053  ./krypt1.sh 
+ 1054  cat krypt1.sh 
+ 1055  history
+ 1056  clear
+ 1057  nano skrypt1.sh
+ 1058  nano krypt1.sh 
+ 1059  nano skrypt1.sh
+ 1060  nano skrypt3.sh
+ 1061  chmod +x skrypt3.sh
+ 1062  ./skrypt3.sh
+ 1063  chmod +x skrypt1.sh
+ 1064  ls
+ 1065  ./skrypt1.sh
+ 1066  nano skrypt3.sh
+ 1067  ./skrypt3.sh
+ 1068  nano krypt1.sh 
+ 1069  nano skrypt1.sh
+ 1070  nano skrypt3.sh
+ 1071  nano skrypt4.sh
+ 1072  chmod +x skrypt4.sh
+ 1073  ./skrypt4.sh 
+ 1074  touch pa1.doc pa2.doc. pa1.docx
+ 1075  ld
+ 1076  ls
+ 1077  nano skrypt4.sh 
+ 1078  ./skrypt4.sh 
+ 1079  nano skrypt5.sh
+ 1080  nano skrypt6.sh
+ 1081  nano skrypt5.sh
+ 1082  chmod skrypt5.sh 
+ 1083  chmod +x skrypt5.sh 
+ 1084  ./skrypt5.sh 
+ 1085  clear
+ 1086  history
+ 1087  history > plik1
